@@ -4,29 +4,29 @@ import os
 
 # Song data from the index page
 songs = [
-    ("Campana Sobre Campana", "CampanaSobreCampana", "Campana%20Sobre%20Campana.mp3"),
-    ("Vamos Pastorcitos", "VamosPastorcitos", "Vamos%20Pastorcitos.mp3"),
-    ("Fum, Fum, Fum", "FumFumFum", "Fum%20Fum%20Fum.mp3"),
-    ("Campanas Navideñas", "CampanasNavidenas", "Campanas%20Navidenas.mp3"),
-    ("Los Peces en El Rio", "LosPecesenElRio", "Los%20Peces%20en%20El%20Rio.mp3"),
-    ("La Virgen Va Caminando", "LaVirgenVaCaminando", "La%20Virgen%20Va%20Caminando.mp3"),
+    ("Campana Sobre Campana", "CampanaSobreCampana", "Campana_Sobre_Campana.mp3"),
+    ("Vamos Pastorcitos", "VamosPastorcitos", "Vamos_Pastorcitos.mp3"),
+    ("Fum, Fum, Fum", "FumFumFum", "Fum_Fum_Fum.mp3"),
+    ("Campanas Navideñas", "CampanasNavidenas", "Campanas_Navidenas.mp3"),
+    ("Los Peces en El Rio", "LosPecesenElRio", "Los_Peces_en_El_Rio.mp3"),
+    ("La Virgen Va Caminando", "LaVirgenVaCaminando", "La_Virgen_Va_Caminando.mp3"),
     ("Tutaina", "Tutaina", "Tutaina.mp3"),
-    ("Rodolfo El Reno", "RodolfoElReno", "Rodolfo%20El%20Reno.mp3"),
-    ("La Burriquita", "LaBurriquita", "La%20Burriquita.mp3"),
-    ("Ay del Chiquirritín", "AydelChiquirritin", "Ay%20del%20Chiquirritin.mp3"),
-    ("Rin Rin", "RinRin", "Rin%20Rin.mp3"),
-    ("Blanca Navidad", "BlancaNavidad", "Blanca%20Navidad.mp3"),
-    ("El Niño del Tambor", "ElNinodelTambor", "El%20Nino%20del%20Tambor.mp3"),
-    ("A Medianoche Se Oyó", "AMedianocheSeOyo", "A%20Medianoche%20Se%20Oyo.mp3"),
-    ("Adeste Fideles", "AdesteFideles", "Adeste%20Fideles.mp3"),
-    ("Noche de Paz", "NochedePaz", "Noche%20de%20Paz.mp3"),
+    ("Rodolfo El Reno", "RodolfoElReno", "Rodolfo_El_Reno.mp3"),
+    ("La Burriquita", "LaBurriquita", "La_Burriquita.mp3"),
+    ("Ay del Chiquirritín", "AydelChiquirritin", "Ay_del_Chiquirritin.mp3"),
+    ("Rin Rin", "RinRin", "Rin_Rin.mp3"),
+    ("Blanca Navidad", "BlancaNavidad", "Blanca_Navidad.mp3"),
+    ("El Niño del Tambor", "ElNinodelTambor", "El_Nino_del_Tambor.mp3"),
+    ("A Medianoche Se Oyó", "AMedianocheSeOyo", "A_Medianoche_Se_Oyo.mp3"),
+    ("Adeste Fideles", "AdesteFideles", "Adeste_Fideles.mp3"),
+    ("Noche de Paz", "NochedePaz", "Noche_de_Paz.mp3"),
 ]
 
 # Categories
 categories = [
     ("Warmup: fun and easy", 0, 7),
     ("Christmas Pop Rock", 7, 8),
-    ("Faster with tongue twisters (trabalenguas)", 8, 11),
+    ("Faster with tongue twisters (<em>trabalenguas</em>)", 8, 11),
     ("Old favorites shared across cultures", 11, 16),
 ]
 
@@ -95,7 +95,7 @@ html_template = '''<!DOCTYPE html>
             color: white;
             padding: 12px;
             margin: 30px 0 15px 0;
-            font-size: 1.3em;
+            font-size: 1.8em;
         }}
         .song {{
             margin: 30px 0;
